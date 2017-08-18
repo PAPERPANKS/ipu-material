@@ -246,11 +246,11 @@
 	<script src="assets/js/material-kit.min.js" type="text/javascript"></script>
 
 	<script type="text/javascript">     
-		$(document).ready(function(){		
-			$(".dropdown").hover(function () {
-				$(this).toggleClass("open");
-			});				
-		});
+		// $(document).ready(function(){		
+		// 	$(".dropdown").hover(function () {
+		// 		$(this).toggleClass("open");
+		// 	});				
+		// });
     </script>
 </body>
 </html>
