@@ -1,15 +1,6 @@
-/*! =========================================================
- *
- * Material Kit PRO - v1.1.1
- *
- * =========================================================
- *
- * Product Page: https://www.creative-tim.com/product/material-kit-pro
- * Available with purchase of license from https://www.creative-tim.com/product/material-kit-pro
- * Copyright 2017 Creative Tim (https://www.creative-tim.com)
- * License Creative Tim (https://www.creative-tim.com/license)
- *
- * ========================================================= */
+/*! =======================
+ * Material Kit
+ * =====================  */
 .radio label,.togglebutton label {
     cursor: pointer
 }
@@ -3078,35 +3069,39 @@ h2.title {
     background-color: #FFF
 }
 
-.card .content-primary,.card .header-primary {
-    background: linear-gradient(60deg,#ab47bc,#7b1fa2)
+.card .card-1{
+    background: rgb(208, 101, 3);
 }
 
-.card .content-info,.card .header-info {
-    background: linear-gradient(60deg,#26c6da,#0097a7)
+.card .card-2{
+    background: rgb(233, 147, 26);
 }
 
-.card .content-success,.card .header-success {
-    background: linear-gradient(60deg,#66bb6a,#388e3c)
+.card .card-3{
+    background: rgb(22, 145, 190);
 }
 
-.card .content-warning,.card .header-warning {
-    background: linear-gradient(60deg,#ffa726,#f57c00)
+.card .card-4{
+    background: rgb(22, 107, 162);
 }
 
-.card .content-danger,.card .header-danger {
-    background: linear-gradient(60deg,#ef5350,#d32f2f)
+.card .card-5{
+    background: rgb(27, 54, 71);
 }
 
-.card .content-rose,.card .header-rose {
-    background: linear-gradient(60deg,#ec407a,#c2185b)
+.card .card-6{
+    background: rgb(21, 40, 54);
 }
 
-.card-nav-tabs .nav-tabs,.card-plain {
+/* .card-nav-tabs .nav-tabs,.card-plain {
     background: 0 0
+} */
+
+.card .card-content{
+    color:#FFF !important;
 }
 
-.card .header-primary {
+/* .card .header-primary {
     box-shadow: 0 5px 20px 0 rgba(0,0,0,.2),0 13px 24px -11px rgba(156,39,176,.6)
 }
 
@@ -3128,7 +3123,7 @@ h2.title {
 
 .card .header-success {
     box-shadow: 0 5px 20px 0 rgba(0,0,0,.2),0 13px 24px -11px rgba(76,175,80,.6)
-}
+} */
 
 .card [class*=header-] .icon i,.card [class*=content-] .icon i {
     border-color: rgba(255,255,255,.25)
@@ -3143,8 +3138,8 @@ h2.title {
 }
 
 .card [class*=content-] {
-    border-radius: 6px
-}
+    border-radius: 0px !important;
+} 
 
 .card [class*=content-] h1 small,.card [class*=content-] h2 small,.card [class*=content-] h3 small {
     color: rgba(255,255,255,.8)
@@ -3386,24 +3381,24 @@ h2.title {
     margin-top: 20px
 }
 
-.card-pricing {
+.card-plain {
     text-align: center
 }
 
-.card-pricing .card-title {
+.card-plain .card-title {
     margin-top: 30px
 }
 
-.card-pricing .card-content {
+.card-plain .card-content {
     padding: 15px!important
 }
 
-.card-pricing .icon {
+.card-plain .icon {
     padding: 10px 0 0;
     color: #999
 }
 
-.card-pricing .icon i {
+.card-plain .icon i {
     font-size: 55px;
     border: 1px solid #E5E5E5;
     border-radius: 50%;
@@ -3412,53 +3407,53 @@ h2.title {
     height: 130px
 }
 
-.card-pricing h1 small {
+.card-plain h1 small {
     font-size: 18px
 }
 
-.card-pricing h1 small:first-child {
+.card-plain h1 small:first-child {
     position: relative;
     top: -17px;
     font-size: 26px
 }
 
-.card-pricing ul {
+.card-plain ul {
     list-style: none;
     padding: 0;
     max-width: 240px;
     margin: 10px auto
 }
 
-.card-pricing ul li {
+.card-plain ul li {
     color: #999;
     text-align: center;
     padding: 12px 0;
     border-bottom: 1px solid rgba(153,153,153,.3)
 }
 
-.card-pricing ul li:last-child {
+.card-plain ul li:last-child {
     border: 0
 }
 
-.card-pricing ul li b {
+.card-plain ul li b {
     color: #3C4858
 }
 
-.card-pricing ul li i {
+.card-plain ul li i {
     top: 6px;
     position: relative
 }
 
-.card-pricing [class*=content-] ul li,.card-pricing.card-background ul li {
+.card-plain [class*=content-] ul li,.card-plain.card-background ul li {
     color: #FFF;
     border-color: rgba(255,255,255,.3)
 }
 
-.card-pricing [class*=content-] [class*=text-],.card-pricing [class*=content-] ul li b,.card-pricing.card-background [class*=text-],.card-pricing.card-background ul li b {
+.card-plain [class*=content-] [class*=text-],.card-plain [class*=content-] ul li b,.card-plain.card-background [class*=text-],.card-plain.card-background ul li b {
     color: #FFF
 }
 
-.card-pricing.card-background:after {
+.card-plain.card-background:after {
     background-color: rgba(0,0,0,.7)
 }
 
@@ -3478,7 +3473,7 @@ h2.title {
     margin: 0 auto
 }
 
-.back-background:not(.card-pricing) .btn,.card-background:not(.card-pricing) .btn,.card-product .category,.card-product .footer .price h4 {
+.back-background:not(.card-plain) .btn,.card-background:not(.card-plain) .btn,.card-product .category,.card-product .footer .price h4 {
     margin-bottom: 0
 }
 
@@ -7371,7 +7366,7 @@ select.bs-select-hidden,select.selectpicker {
     margin-bottom: 0
 }
 
-.index-page .section-pricing .card-pricing,.presentation-page .section-pricing .card-pricing {
+.index-page .section-pricing .card-plain,.presentation-page .section-pricing .card-plain {
     margin-top: 45px
 }
 
