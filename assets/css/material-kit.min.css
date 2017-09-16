@@ -5202,12 +5202,12 @@ select.bs-select-hidden,select.selectpicker {
     box-shadow: 0 5px 5px -2px rgba(31,31,31,.4)
 }
 
-.index-page .header-filter:after,.presentation-page .header-filter:after {
+/* .index-page .header-filter:after,.presentation-page .header-filter:after {
     background: rgba(132,13,121,.88);
     background: linear-gradient(45deg,rgba(132,13,121,.88) 0,rgba(208,44,180,.31) 100%);
     background: -moz-linear-gradient(135deg,rgba(132,13,121,.88) 0,rgba(208,44,180,.31) 100%);
     background: -webkit-linear-gradient(135deg,rgba(132,13,121,.88) 0,rgba(208,44,180,.31) 100%)
-}
+} */
 
 .index-page h4.description,.presentation-page h4.description {
     font-size: 1.5em

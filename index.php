@@ -23,7 +23,7 @@
 	</style>
 </head>
 <body class="index-page">
-    <?php include ('assets/html/header.html'); ?>
+    <?php require_once ('assets/html/header.html'); ?>
 
     <div class="page-header header-filter" data-parallax="true" style="background-image: url(assets/img/usict.jpg); transform: translate3d(0px, 0px, 0px);">
         <div class="container">
@@ -59,10 +59,10 @@
 				<div class="cards" >
 					<div class="container-fluid">
 						<div class="title">
-							<h2>Cards</h2>
-							<h3>Quick Links</h3>
+							<h2>Adding more content ...</h2>
+							<!--h3>Quick Links</h3-->
 						</div>
-						<div class="row">
+						<!--div class="row">
 							<div class="col-md-2 col-xs-6">
 								<div class="card card-plain">
 									<div class="card-content card-1">
@@ -123,13 +123,13 @@
 									</div>
 								</div>
 							</div>					
-						</div>
+						</div-->
 					</div>
 				</div>
 			</div>
 		</div><!--cards-->
 
-		<?php include ('assets/html/footer.html'); ?>
+		<?php require_once ('assets/html/footer.html'); ?>
 
 	</div><!--main-raised-->
 
